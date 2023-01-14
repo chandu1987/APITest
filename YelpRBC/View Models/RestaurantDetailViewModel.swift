@@ -100,22 +100,20 @@ class RestaurantDetailViewModel:NSObject {
     
 
     func getPhotosCount() -> Int {
-        guard restaurantDetail != nil else{
+        guard let restaurantDetail = restaurantDetail,
+              let photos = restaurantDetail.photos else {
             return 0
         }
         
-        if let photos = restaurantDetail.photos{
-            return photos.count
-        }
-        return 0
+        return photos.count
     }
     
     func getPhotoUrl(_ index:Int) -> String {
-        return restaurantDetail.photos![index]
+        guard let restaurantDetail = restaurantDetail,
+              let photos = restaurantDetail.photos else {
+            return ""
+        }
+        
+        return photos[index]
     }
-    
-    
-    
-    
-    
 }

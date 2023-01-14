@@ -35,7 +35,6 @@ class UIImageLoader{
       }
 }
     
-    
     func cancel(for imageView: UIImageView) {
       if let uuid = uuidMap[imageView] {
         imageLoader.cancelLoad(uuid)

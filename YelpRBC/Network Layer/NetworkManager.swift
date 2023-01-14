@@ -70,41 +70,6 @@ class NetworkManager  {
         task.resume()
         return task
     }
-
-    
-    
-    //Get Restaurants list
-//    func getRestaurantsList(completion : @escaping (_ result: Result<[Restaurant], Error>) -> Void){
-//        
-//        let restaurantsListUrl = URL(string: Constants.Urls.kBaseUrl + Constants.Urls.kGetRestaurantsUrl)!
-//        
-//        urlSession.dataTask(with: restaurantsListUrl) { (data, urlResponse, error) in
-//            do{
-//                //check for error
-//                if let error = error {
-//                    throw error
-//                }
-//                
-//                // Check response code.
-//                guard let httpResponse = urlResponse as? HTTPURLResponse, 200..<300 ~= httpResponse.statusCode else {
-//                    completion(Result.failure(NetworkError.networkError))
-//                    return
-//                }
-//     
-//                //parse it and return
-//                if let responseData = data, let business = try? JSONDecoder().decode(Business.self, from: responseData) {
-//                    completion(Result.success(business.restaurants))
-//                } else {
-//                    completion(Result.failure(NetworkError.parsingError))
-//                }
-//                
-//            }catch{
-//                completion(Result.failure(error))
-//            }
-//            
-//        }.resume()
-//    }
-//    
     
 }
 

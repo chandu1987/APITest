@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C11D56025D88CE60075F92E /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11D55F25D88CE60075F92E /* UIButton+Utils.swift */; };
 		2C301D6525D480D00017CAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C301D6425D480D00017CAA9 /* AppDelegate.swift */; };
 		2C301D6725D480D00017CAA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C301D6625D480D00017CAA9 /* SceneDelegate.swift */; };
 		2C301D6925D480D00017CAA9 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C301D6825D480D00017CAA9 /* RestaurantsViewController.swift */; };
@@ -56,7 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C11D55F25D88CE60075F92E /* UIButton+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
 		2C301D6125D480D00017CAA9 /* YelpRBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpRBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C301D6425D480D00017CAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C301D6625D480D00017CAA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				2C301DC925D496320017CAA9 /* UIViewController+Utils.swift */,
-				2C11D55F25D88CE60075F92E /* UIButton+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -401,7 +398,6 @@
 				2C301D6525D480D00017CAA9 /* AppDelegate.swift in Sources */,
 				2C301DB825D48B160017CAA9 /* Constants.swift in Sources */,
 				2C301DBD25D48CEF0017CAA9 /* RestaurantsViewModel.swift in Sources */,
-				2C11D56025D88CE60075F92E /* UIButton+Utils.swift in Sources */,
 				2C301DE325D4E6410017CAA9 /* GetRestaurantDetailEndPoint.swift in Sources */,
 				2C301DAB25D4885A0017CAA9 /* Business.swift in Sources */,
 				2CF6AED825D7797C002A5415 /* DishCell.swift in Sources */,
